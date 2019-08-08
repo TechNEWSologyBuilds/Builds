@@ -1,9 +1,27 @@
 <xml>
 
     <dir>
-        <title>Sports</title>
+        <title>Sports1</title>
         <link>https://pastebin.com/raw/8yhJwuTV</link>
         <thumbnail>http://mullafabz.xyz/HOST/Icons/matchdays.jpg?raw=true</thumbnail>
     </dir>
 
+    <dir>
+        <title>Sports2</title>
+        <link>https://pastebin.com/raw/kw4SHes6</link>
+        <thumbnail>http://mullafabz.xyz/HOST/Icons/matchdays.jpg?raw=true</thumbnail>
+    </dir>    
+ 
+      <dir>
+        <title>Sports3</title>
+        <link>https://pastebin.com/raw/NYNuP7zz</link>
+        <thumbnail>http://mullafabz.xyz/HOST/Icons/matchdays.jpg?raw=true</thumbnail>
+    </dir>  
+  
+    <dir>
+        <title>Sports4</title>
+        <link>https://pastebin.com/raw/B5rv9xaT</link>
+        <thumbnail>http://mullafabz.xyz/HOST/Icons/matchdays.jpg?raw=true</thumbnail>
+    </dir>    
+    
 </xml>
