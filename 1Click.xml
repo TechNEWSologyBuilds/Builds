@@ -1,38 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml>
 
-<item>
-<title>[COLOR blue][COLOR deepskyblue].1 4k Movies[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/video-play-4-xxl.png</thumbnail><fanart>https://i.ytimg.com/vi/7_R-3ZhX3cw/maxresdefault.jpg</fanart>
-<externallink>https://pastebin.com/raw/yJdJzZHh</externallink>
-</item>
+    <dir>
+        <title>[COLOR blue][COLOR deepskyblue]4k Movies 1[/COLOR]</title>
+        <link>https://pastebin.com/raw/yJdJzZHh</link>
+        <thumbnail>http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/video-play-4-xxl.png</thumbnail>
+    </dir>
 
-<item>
-<title>[COLOR blue][COLOR deepskyblue].2 4k Movies[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/video-play-4-xxl.png</thumbnail><fanart>https://i.ytimg.com/vi/7_R-3ZhX3cw/maxresdefault.jpg</fanart>
-<externallink>http://46.29.166.79/solidbuilds/44k.xml</externallink>
-</item>
+    <dir>
+        <title>[COLOR blue][COLOR deepskyblue]4k Movies 2[/COLOR]</title>
+        <link>http://46.29.166.79/solidbuilds/44k.xml</link>
+        <thumbnail>https://4.bp.blogspot.com/-oQNkqrqPQ98/W1jECk8g7YI/AAAAAAAADjU/FxPmjwup0QI6_2ni2icom0WpHSpx2gt2gCLcBGAs/s1600/Stratus_TV_Playlist.png</thumbnail>
+    </dir>
 
+    <dir>
+        <title>[COLOR blue][COLOR deepskyblue]Click Movies 1[/COLOR]</title>
+        <link>https://pastebin.com/raw/wEXCt90e</link>
+        <thumbnail>https://4.bp.blogspot.com/-Eg90Vh8Redo/W1jD5cl7sVI/AAAAAAAADjQ/b0uHeL1gjkkwKvqjhS-X0LpLqzVgPqaaACLcBGAs/s1600/LodgeTV_Playlist.png</thumbnail>
+    </dir>
 
-<item>
-<title>[COLOR blue][COLOR deepskyblue].1 Click Movies[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/video-play-4-xxl.png</thumbnail><fanart>https://i.ytimg.com/vi/7_R-3ZhX3cw/maxresdefault.jpg</fanart>
-<externallink>https://pastebin.com/raw/wEXCt90e</externallink>
-</item>
+    <dir>
+        <title>[COLOR blue][COLOR deepskyblue]Click Movies 2[/COLOR]</title>
+        <link>https://pastebin.com/raw/guA9fbph</link>
+        <thumbnail>https://dl.dropbox.com/s/oh35y1wxnqh01wf/KRATOS.png</thumbnail>
+    </dir>
 
-<item>
-<title>[COLOR blue][COLOR deepskyblue].1 Click Movies 2[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/video-play-4-xxl.png</thumbnail><fanart>https://i.ytimg.com/vi/7_R-3ZhX3cw/maxresdefault.jpg</fanart>
-<externallink>https://pastebin.com/raw/guA9fbph</externallink>
-</item>
+    <plugin>
+        <title>[COLOR blue][COLOR deepskyblue]1 Click Kids Movies [/COLOR]</title>
+        <link>plugin://script.module.tt</link>
+        <thumbnail>https://pastebin.com/raw/iSs3f7uS</thumbnail>
+    </plugin>
 
-<item>
-<title>[COLOR blue][COLOR deepskyblue].1 Click Kids Movies [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/video-play-4-xxl.png</thumbnail><fanart>https://i.ytimg.com/vi/7_R-3ZhX3cw/maxresdefault.jpg</fanart>
-<externallink>https://pastebin.com/raw/iSs3f7uS</externallink>
-</item>
-
-<item>
-<title>[COLOR blue][COLOR deepskyblue].1 Click Christmas Movies [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/video-play-4-xxl.png</thumbnail><fanart>https://i.ytimg.com/vi/7_R-3ZhX3cw/maxresdefault.jpg</fanart>
-<externallink>https://pastebin.com/raw/M006CBih</externallink>
-</item>
+</xml>
