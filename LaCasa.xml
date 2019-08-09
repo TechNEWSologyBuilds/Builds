@@ -1,0 +1,22 @@
+<xml>
+
+    <dir>
+        <title>Σεζόν 1</title>
+        <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/LaCasaS01.xml</link>
+        <thumbnail>https://i1.wp.com/liomenoi.online/wp-content/uploads/2019/08/jAGeeCuAh4Id4p78BOYsSFXLrC8.jpg?fit=350%2C525&ssl=1</thumbnail>
+    </dir>
+
+    <dir>
+        <title>Σεζόν 2</title>
+        <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/LaCasaS02.xml</link>
+        <thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC79gvBF1rSvKS3cOqlZXQnL-ujRSQkCVLXsvOQKVlvZOcXuJ0</thumbnail>
+    </dir>
+
+    <dir>
+        <title>Σεζόν 3</title>
+        <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/LaCasaS03.xml</link>
+        <thumbnail>https://m.media-amazon.com/images/M/MV5BNmYxZWNlMDAtYzczZC00M2ViLWIwYjctMDg3M2QyN2E1MzlmXkEyXkFqcGdeQXVyNjE4ODA3NTY@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+        <fanart>https://specials-images.forbesimg.com/imageserve/5d30c8e5eab9270008f9bd2a/960x0.jpg?fit=scale</fanart>
+    </dir>
+
+</xml>
