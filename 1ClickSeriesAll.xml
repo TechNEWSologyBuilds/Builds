@@ -4,12 +4,14 @@
         <title>La Casa De Papel</title>
         <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/LaCasa.xml</link>
         <thumbnail>https://m.media-amazon.com/images/M/MV5BNmYxZWNlMDAtYzczZC00M2ViLWIwYjctMDg3M2QyN2E1MzlmXkEyXkFqcGdeQXVyNjE4ODA3NTY@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+        <fanart>https://specials-images.forbesimg.com/imageserve/5d30c8e5eab9270008f9bd2a/960x0.jpg?fit=scale</fanart>
     </dir>
 
     <dir>
         <title>Game Of Thrones</title>
-        <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/FlexusIPTV.xml</link>
-        <thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC79gvBF1rSvKS3cOqlZXQnL-ujRSQkCVLXsvOQKVlvZOcXuJ0</thumbnail>
+        <link>Σύντομα κοντά σας...</link>
+        <thumbnail>https://m.media-amazon.com/images/M/MV5BMjA5NzA5NjMwNl5BMl5BanBnXkFtZTgwNjg2OTk2NzM@._V1_.jpg</thumbnail>
+        <fanart>https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/1/game-of-thrones-1-1920x1080.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg</fanart>  
     </dir>
 
 </xml>
