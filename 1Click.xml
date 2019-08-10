@@ -1,12 +1,6 @@
 <xml>
 
     <dir>
-        <title>[B][COLOR white]4k Ταινίες[/COLOR][/B]</title>
-        <link>https://pastebin.com/raw/yJdJzZHh</link>
-        <thumbnail>https://www.pngkey.com/png/full/231-2312956_sh-4k-ultra-hd-png.png</thumbnail>
-    </dir>
-
-    <dir>
         <title>[B][COLOR white]Ταινίες 2019[/COLOR][/B]</title>
         <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/Tainies2019.xml</link>
         <thumbnail>https://www.freeiconspng.com/uploads/movie-icon-6.png</thumbnail>
@@ -22,6 +16,12 @@
         <title>[B][COLOR white]Ταινίες πριν το 2015[/COLOR][/B]</title>
         <link>https://pastebin.com/raw/guA9fbph</link>
         <thumbnail>https://www.freeiconspng.com/uploads/movie-icon-6.png</thumbnail>
+    </dir>
+
+    <dir>
+        <title>[B][COLOR white]4k Ταινίες[/COLOR][/B]</title>
+        <link>https://pastebin.com/raw/yJdJzZHh</link>
+        <thumbnail>https://www.pngkey.com/png/full/231-2312956_sh-4k-ultra-hd-png.png</thumbnail>
     </dir>
 
      <dir>
