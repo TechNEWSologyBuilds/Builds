@@ -7,13 +7,19 @@
     </dir>
 
     <dir>
-        <title>[B][COLOR white]Ταινίες 1[/COLOR][/B]</title>
-        <link>https://pastebin.com/raw/wEXCt90e</link>
+        <title>[B][COLOR white]Ταινίες 2019[/COLOR][/B]</title>
+        <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/Tainies2019.xml</link>
         <thumbnail>https://www.freeiconspng.com/uploads/movie-icon-6.png</thumbnail>
     </dir>
 
     <dir>
-        <title>[B][COLOR white]Ταινίες 2[/COLOR][/B]</title>
+        <title>[B][COLOR white]Ταινίες 2018-2015[/COLOR][/B]</title>
+        <link>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/Tainies2018-2015.xml</link>
+        <thumbnail>https://www.freeiconspng.com/uploads/movie-icon-6.png</thumbnail>
+    </dir>
+
+    <dir>
+        <title>[B][COLOR white]Ταινίες πριν το 2015[/COLOR][/B]</title>
         <link>https://pastebin.com/raw/guA9fbph</link>
         <thumbnail>https://www.freeiconspng.com/uploads/movie-icon-6.png</thumbnail>
     </dir>
