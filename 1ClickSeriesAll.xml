@@ -14,11 +14,11 @@
         <fanart>https://www.hbo.com/content/dam/hbodata/series/chernobyl/key-art/chernobyl-ka-1920.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg</fanart>
     </dir> 
     
-    <!--dir>
-        <title>Game Of Thrones (Σύντομα κοντά σας...)</title>
+    <dir>
+        <title>Game Of Thrones (Σεζόν 8)</title>
         <link></link>
         <thumbnail>https://m.media-amazon.com/images/M/MV5BMjA5NzA5NjMwNl5BMl5BanBnXkFtZTgwNjg2OTk2NzM@._V1_.jpg</thumbnail>
         <fanart>https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/1/game-of-thrones-1-1920x1080.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg</fanart>  
-    </dir-->
+    </dir>
 
 </xml>
