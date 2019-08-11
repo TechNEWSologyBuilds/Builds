@@ -1,158 +1,100 @@
-########################################################
-# Rojadirecta.eu
-########################################################
+<?xml version="1.0" encoding="UTF>8"?>
+<?xml>stylesheet href="hide>it.xsl" type="text/xsl"?>
+ 
+<layouttype></layouttype>
 
-@IF(@PARAM1@!=Streams)@
-@IF(@PARAM1@!=Unblock)@
-####################################################
-title=[COLOR=gold]***Unblock***[/COLOR]
-cfg=rojadirecta.me.cfg@Unblock
-type=once
-url=http://null.com
+<item>
+<title>Ο Γάτος ο Φευγάτος / Cats and Peachtopia (2018)</title>
+<link>
+<sublinkXrysoi1>http://voody.online/load/metaglwtism_na_paidik_online/21644--cats-and-peachtopia-2018.html</sublink> 
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E01.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E01.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
-start=http://www.rojadirecta.me/
-skill=videoTitle
+<item>
+<title>Money Heist S02E02</title>
+<link>
+<sublinkXrysoi1>https://s1.hdvid.tv/uirokpxrue4swchrlo4xphiamgyalbuzi7ivu737rb3dzpdn4svarark65eq/v.mp4</sublink> 
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E02.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E02.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
-item_infos=<span class="(\d+)".*?<div class="menutitle".*?<span class="t">([^<]+)</span>(.*?)</div>
-item_order=id|time.tmp|event.tmp
-item_skill=rss
+<item>
+<title>Money Heist S02E03</title>
+<link>
+<sublinkXrysoi1>https://s9.hdvid.tv/uirokr6eue4swchrlodxpqaanrx2pa6ukrvdre3rr6zbl7jg3uzqojagbjaq/v.mp4</sublink> 
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E03.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E03.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
-item_info_name=clean.tmp
-item_info_from=event.tmp
-item_info_convert=replaceRegex('%s','<span class="es">.*?</span>','')
-item_info_convert=replace('%s','<span class="en">','')
-item_info_convert=replace('%s','</span>','')
-item_info_convert=replace('%s',' ()','')
-item_info_convert=replace('%s','</time>','')
-item_info_convert=replace('%s','<span itemprop="name">','')
-item_info_convert=parseText('%s','\s*(.*)<b>\s*(.*?)\s*</b>','sport|event')
-item_info_build=%s
+<item>
+<title>Money Heist S02E04</title>
+<link>
+<sublinkXrysoi1>https://s2.hdvid.tv/uirolgi4ue4swchrlocxpasygmsa6mphd73wpacpe3tirwoptyrbtk2qij5q/v.mp4</sublink> 
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E04.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E04.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
-item_info_name=time
-item_info_from=time.tmp
-item_info_convert=replace('%s',';',':')
-item_info_convert=convDateUtil('default','Europe/Berlin')
-item_info_build=[%s]
+<item>
+<title>Money Heist S02E05</title>
+<link>
+<sublinkXrysoi1>https://s3.hdvid.tv/uirokn3xue4swchrlobxpaiemvkg535hgscdfhwhntqj6fas5erqf7zwu2ba/v.mp4</sublink> 
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E05.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E05.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
-item_info_name=title
-#item_info_from='[' + time + '] ' + sport + ' ' + event
-item_info_from='[COLOR=blue]' + time + '[/COLOR] [COLOR=green]' + sport + '[/COLOR] [COLOR=cyan]'+ event + '[/COLOR]'
-item_info_build=%s
+<item>
+<title>Money Heist S02E06</title>
+<link>
+<sublinkXrysoi1>https://s11.hdvid.tv/uirok2fxua4swchrloahpeqdmzbzeed36dpppa3huxflhbffbthmvjewxrva/v.mp4</sublink> 
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E06.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E06.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
-item_info_name=cfg
-item_info_from=id
-item_info_build=rojadirecta.me.cfg@Streams@%s
-item_url_build=%s
+<item>
+<title>Money Heist S02E07</title>
+<link>
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E07.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E07.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
+<item>
+<title>Money Heist S02E08</title>
+<link>
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E08.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E08.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
 
-@ENDIF@
-@ENDIF@
-
-@IF(@PARAM1@==Unblock)@
-title=*Unblock-1*
-cfg=rojadirecta-uk.cfg
-url=http://www.rojadirecta.me.de.a2ip.ru/
-
-title=*Unblock-2*
-cfg=rojadirecta-uk.cfg
-url=http://www.rinconrojadirecta.com/rd/rd.php
-
-title=*Unblock-3*
-cfg=rojadirecta-uk.cfg
-url=https://rojadirecta.bypassed.in/
-
-title=*Unblock-4*
-cfg=rojadirecta-uk.cfg
-url=http://truthsilo.com/pox/index.php?q=http%3A%2F%2Fwww.rojadirecta.me%2F&hl=3e5
-
-title=*Unblock-4*
-cfg=rojadirecta-uk.cfg
-url=http://rojadirecta.u5blockall.org/
-
-@ENDIF@
-
-
-
-@IF(@PARAM1@==Streams)@
-
-skill=autoselect
-catcher=streams
-
-section=<span class="@PARAM2@".*?</tbody>\s*</table>
-
-## all but p2p
-#item_infos=<tr>\s*<td>NO</td>\s*<td>(?!bwin|bet365)([^<]*)</td>\s*<td>([^<]*)</td>\s*<td>([^<]*).*?</td>\s*<td>([^<]*)</td>\s*<td>(?:<b>)?<a[^>]*href="([^"]+)"
-item_infos=<tr>\s*<td>[^<]*</td>\s*<td>(?!bwin|bet365)(?!Nome)([^<]*)</td>\s*<td>([^<]*)</td>\s*<td>([^<]*).*?</td>\s*<td>(.*?)</td>\s*<td>(?:<b>)?<a[^>]*href="([^"]+)"
-item_order=channel|language.tmp|type|quality.tmp|url.tmp
-item_skill=rss
-
-item_info_name=quality
-item_info_from=quality.tmp
-item_info_convert=ifEmpty('%s','','(%s kbps) ')
-item_info_convert=replace('%s','<!--9000-->','')
-item_info_convert=replace('%s',' (<span class="es">e</span>stable)','')
-item_info_build=%s
-
-item_info_name=language
-item_info_from=language.tmp
-item_info_convert=ifEmpty('%s','','(%s) ')
-item_info_build=%s
-
-item_info_name=alternativeType
-item_info_from=url
-item_info_convert=parseText('%s','http://[\w\.]+/(.*)')
-item_info_build=Redirect - %s
-
-item_info_name=defType
-item_info_from=type || alternativeType
-item_info_build=%s
-
-item_info_name=goto_url
-item_info_from=url.tmp
-item_info_convert=parseText('%s','.*goto/(.*)')
-item_info_convert=ifEmpty('%s','','http://%s')
-item_info_build=%s
-
-item_info_name=alt_url
-item_info_from=url.tmp
-item_info_convert=parseText('%s','http://[\w\.]+/(https*://.*)')
-item_info_build=%s
-
-item_info_name=url
-item_info_from=goto_url || alt_url || url.tmp
-item_info_build=%s
-
-item_info_name=title
-item_info_from=channel + ' - ' + quality + language + defType
-item_info_build=%s
-
-item_url_build=%s
-
-
-## catch p2p links directly
-########################################################
-# SopCast - Videos
-########################################################
-item_infos=sop://[^:]+:3912/(\d+)
-item_order=video
-@CATCH(sopcast,video)@
-
-########################################################
-# StreamTorrent - Videos
-########################################################
-item_infos=["'](st://[^"']+)["']
-item_order=video
-
-item_info_name=title
-item_info_from=video
-item_info_build=StreamTorrent - %s
-
-item_info_name=url
-item_info_from=video
-item_info_build=%s
-
-item_info_name=type
-item_info_build=video
-item_url_build=%s
-
-@ENDIF@
+<item>
+<title>Money Heist S02E09</title>
+<link>
+<sublink>http://dl9.uploadt.com/Serial/Money.Heist/S02/720p/Money.Heist.S02E09.SPA-ENG.720p.10bit.WEBRip.2CH.x265.HEVC_AVADL.PRO.mkv</sublink> 
+<sublink>http://185.137.27.12/serial/Money%20Heist/season%202/720/La.Casa.de.Papel.S02E09.720p.NF.WEB-DL.x264.SaberFun.mkv</sublink> 
+</link>
+<thumbnail>https://images.justwatch.com/poster/133788809/s166</thumbnail>
+<fanart>https://images.spot.im/v1/production/cilcplb8mqf8fu5zphct</fanart>
+</item>
