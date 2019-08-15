@@ -1,8 +1,11 @@
 <xml>
 
     <dir>
-        <title>1</title>
-        <path>http://dl2.uploadzone.ir/series/</path>
+        <source>
+          <name>HeyserverSeries</name>
+          <path pathversion="1">http://dl2.uploadzone.ir/series/</path>
+          <allowsharing>true</allowsharing>
+        </source>
         <thumbnail>https://i1.wp.com/liomenoi.online/wp-content/uploads/2019/08/jAGeeCuAh4Id4p78BOYsSFXLrC8.jpg?fit=350%2C525&ssl=1</thumbnail>
     </dir>
 
