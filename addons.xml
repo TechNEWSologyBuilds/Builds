@@ -1,102 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.super.favourites" name="[B][COLORorange]Υποκατηγορίες - Συντομεύσεις[/COLOR][/B]" version="17.6.0" provider-name="spoyser">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.metahandler" optional="true" />
-  </requires>
-
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image executable</provides>
-  </extension>
-
-
-  <extension point="xbmc.pass" library="service.py" start="startup" />
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Super Favourites for TechNEWSology Build</summary>
-    <description lang="en">Modified Favourites' categories for TechNEWSology Build.[CR][CR]Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
-    <website></website>
-    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
-    <email>seanpoyser at gmail.com</email>
-
-    <news>
-1.0.59: 29th May 2017
-    - 'Now playing' text now defined by SF due to skin variations
-    </news>
-
-  </extension>
-
-
-  <extension point="kodi.context.item">
-    <menu id="kodi.core.main">
-
-      <item library="capture.py">
-        <label>$ADDON[plugin.program.super.favourites 30002]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_addtofaves.py">
-        <label>$ADDON[plugin.program.super.favourites 30047]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_download.py">
-        <label>$ADDON[plugin.program.super.favourites 30259]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
-      </item>
-
-    </menu>
-  </extension>
-
-</addon>
-
-<addon id="plugin.video.placenta" version="2.0.70" name="[B][COLOR orange]Placenta[/COLOR][/B]" provider-name="Team Afterbirth">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.placenta" />
-		<import addon="script.placenta.artwork" />
-		<import addon="script.placenta.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" />
-        <import addon="plugin.video.youtube"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="placenta.py">
-		<provides>video</provides>
-        <provides>audio</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Placenta</summary>
-		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
-</disclaimer>
-		<platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-		<license>Beerware rev. 42</license>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
-		</assets>
-		<news></news>
-	</extension>
-</addon>
-
-<addon id="repository.TechNEWSology.Gkn" name="TechNEWSology Repo Gkn" version="0.1.6" provider-name="TechNEWSology">
-	<extension point="xbmc.addon.repository" name="TechNEWSology Repo Gkn">
+<addon id="repository.TechNEWSology.Gkn" name="TechNEWSology Repository" version="0.1.9" provider-name="TechNEWSology">
+	<extension point="xbmc.addon.repository" name="TechNEWSology Repository">
 		<info compressed="false">https://gknwizard.eu/repo/Builds/TechNEWsology/_repo/addons.xml</info>
 		<checksum>https://gknwizard.eu/repo/Builds/TechNEWsology/_repo/addons.xml.md5</checksum>
 		<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_repo/</datadir>
@@ -106,9 +11,19 @@ This is a Non-profit resource, organized solely for educational purposes which i
 				<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoLeia/</datadir>
 			</dir>
 			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/</datadir>
+			</dir>
+			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 			</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -116,25 +31,5 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<description>TechNEWSology Build Repo</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.TechNEWSology.Pair"
-  name="[B][COLOR goldenrod]TechNEWSology[/COLOR][/B]"
-  version="1.8"
-  provider-name="TechNEWSology">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="service.subloader" />
-    <import addon="plugin.video.neweyasess" />
-  </requires>
-  <extension point="xbmc.python.script" library="addon.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">TechNEWSology Pair Hosts</summary>
-    <description lang="en">TechNEWSology Pair Hosts</description>
-	<disclaimer>TechNEWSology Pairing</disclaimer>
-  </extension>
 </addon>
 </addons>
